@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G3NAI - Under Development</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            width: 180px;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #090D0C;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        
+        .status {
+            display: inline-block;
+            background-color: #B7E5EB;
+            color: #090D0C;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+        
+        .progress-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 2rem auto;
+            margin-top: 4rem;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 10px;
+            width: 35%;
+            background-color: #602C7B;
+            border-radius: 8px;
+            animation: progress-animation 2s ease-in-out infinite alternate;
+        }
+           
+        
+        .footer {
+            margin-top: 5rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+        
+        @keyframes progress-animation {
+            0% { width: 25%; }
+            100% { width: 45%; }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./img/logos/G3NAI_ICON.svg" alt="G3NAI Logo" class="logo">
+        
+        <h1></h1>
+        
+        <div class="status">Website Under Development</div>
+    
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        <p>Development progress: <strong>UNKNOWN%</strong></p>
+        
+        <br><br><br>
+        
+        <div class="footer">
+            <p>&copy; 2025 G3NAI. All rights reserved.</p>
+            <p>Created by <a href="https://www.blackmouthgames.com">Blackmouthgames</a></p>
+        </div>
+    </div>
+</body>
+</html>
